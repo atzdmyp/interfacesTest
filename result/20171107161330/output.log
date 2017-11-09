@@ -1,0 +1,13 @@
+2017-11-07 16:13:31,711 - root - INFO - ********TEST START********
+2017-11-07 16:13:33,035 - root - INFO - login - Code:0 - msg:ok
+2017-11-07 16:13:33,681 - root - INFO - login_PasswordError - Code:400504 - msg:PasswordError
+2017-11-07 16:13:35,718 - root - INFO - login_EmailError - Code:400504 - msg:PasswordError
+2017-11-07 16:13:36,341 - root - INFO - login_EmailNull - Code:100102 - msg:email with  call: Argument is not an json: email
+2017-11-07 16:13:36,936 - root - INFO - login_PasswordNull - Code:100102 - msg:password with  call: Argument is a blank string: password
+2017-11-07 16:13:37,605 - root - INFO - login_TokenNull - Code:100105 - msg:Forbidden
+2017-11-07 16:13:38,921 - root - INFO - logout - Code:0 - msg:ok
+2017-11-07 16:13:40,297 - root - INFO - logout_TokenVisitor - Code:0 - msg:ok
+2017-11-07 16:13:41,569 - root - INFO - logout_TokenError - Code:100105 - msg:Forbidden
+2017-11-07 16:13:42,682 - root - INFO - logout_TokenNull - Code:100105 - msg:Forbidden
+2017-11-07 16:13:42,907 - root - INFO - *********TEST END*********
+2017-11-07 16:13:42,908 - root - INFO - Doesn't send report email to developer.
